@@ -8,9 +8,8 @@ function ehParOuImpar(numero) {
   if (soma % 2 == 0) {
     return "impar";
   }
-    return "par";
-
+  return "par";
 }
 module.exports = {
-    ehParOuImpar
-}
+  ehParOuImpar,
+};
