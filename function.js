@@ -2,14 +2,14 @@ function ehParOuImpar(numero) {
   let array = numero.split("");
   let soma = 0;
 
-  array.foreach((elemento) => {
-    soma += elemento;
+  array.forEach((elemento) => {
+    soma += +elemento;
   });
   if (soma % 2 == 0) {
     return "impar";
-  } else {
-    return "par";
   }
+    return "par";
+
 }
 module.exports = {
     ehParOuImpar
